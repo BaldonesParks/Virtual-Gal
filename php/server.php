@@ -7,7 +7,7 @@ $email    = "";
 $errors = array(); 
 
 // connect to the database
-$db = mysqli_connect('localhost', 'root', '', 'virtual gal');
+$db = mysqli_connect('', '', '', 'epiz_31446269_virtualgal');
 
 // REGISTER USER
 if (isset($_POST['reg_user'])) {
